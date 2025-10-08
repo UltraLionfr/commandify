@@ -1,0 +1,25 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+modId = "commandify"
+version = "1.0.1"
+displayName = "commandify"
+displayURL = "https://ultralion.xyz"
+authors = "UltraLion"
+description = '''Commandify'''
+
+[[dependencies."commandify"]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies."commandify"]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.22)"
+ordering = "AFTER"
+side = "BOTH"

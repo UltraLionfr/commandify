@@ -1,0 +1,145 @@
+{
+  "commandify.invsee.open_self": "§cTu ne peux pas ouvrir ton propre inventaire.",
+  "commandify.invsee.open_target": "§aTu modifies l’inventaire de §e%s§a.",
+  "commandify.invsee.title": "Inventaire de %s",
+  "commandify.invsee.error": "§cErreur interne lors de l’ouverture de l’inventaire : %s",
+
+  "commandify.broadcast.format": "§6§l[Annonce] §e%s",
+  "commandify.broadcast.sent": "§aAnnonce envoyée à tous les joueurs.",
+
+  "commandify.ignore.self": "§cTu ne peux pas t’ignorer toi-même.",
+  "commandify.ignore.already": "§eTu ignores déjà §6%s§e.",
+  "commandify.ignore.added": "§aTu ignores maintenant §6%s§a.",
+
+  "commandify.ignored.empty": "§7Tu n’as ignoré aucun joueur.",
+  "commandify.ignored.header": "§e👥 Joueurs ignorés :",
+  "commandify.ignored.hover": "Cliquer pour /unignore %s",
+
+  "commandify.unignore.not_ignored": "§eTu n’ignores pas §6%s§e.",
+  "commandify.unignore.success": "§aTu n’ignores plus §6%s§a.",
+
+  "commandify.msg.self": "§cTu ne peux pas t’envoyer un message à toi-même.",
+  "commandify.msg.ignored": "§cCe joueur t’a ignoré, ton message ne lui sera pas envoyé.",
+  "commandify.msg.to_sender": "§7[§bMoi §7→ §e%s§7] §f%s",
+  "commandify.msg.to_target": "§7[§e%s §7→ §bMoi§7] §f%s",
+
+  "commandify.reply.none": "§cAucun message récent à qui répondre.",
+  "commandify.reply.offline": "§cCe joueur n’est plus en ligne.",
+  "commandify.reply.ignored": "§cCe joueur t’a ignoré, ton message ne lui sera pas envoyé.",
+  "commandify.reply.to_sender": "§7[§bMoi §7→ §e%s§7] §f%s",
+  "commandify.reply.to_target": "§7[§e%s §7→ §bMoi§7] §f%s",
+
+  "commandify.info.title": "§6§lCommandify §r§7(v%s)",
+  "commandify.info.author": "§eAuteur : §fUltraLion",
+  "commandify.info.website": "§eSite : §fhttps://ultralion.xyz",
+  "commandify.info.modules_title": "§7Modules actifs :",
+  "commandify.info.module.teleport": "§f- Téléportation (Homes, Warps, TPA, RTP, Back)",
+  "commandify.info.module.world": "§f- Monde (Temps, Météo)",
+  "commandify.info.module.chat": "§f- Chat (MP, Réponse, Ignore, Broadcast)",
+  "commandify.info.modid": "§7Mod ID : §f%s",
+  "commandify.info.server_version": "§7Version serveur : §f%s",
+  "commandify.info.players": "§7Joueurs connectés : §f%s",
+
+  "commandify.reload.success": "§a[Commandify] Configuration rechargée avec succès !",
+  "commandify.reload.error": "§c[Commandify] Erreur lors du rechargement de la configuration.",
+
+  "commandify.back.disabled": "§cLa commande /back est désactivée sur ce serveur.",
+  "commandify.back.no_previous": "§cAucune position précédente trouvée.",
+  "commandify.back.success": "§aTéléportation vers ta dernière position.",
+
+  "commandify.home.not_found": "§cLe home '%s' n’existe pas.",
+  "commandify.home.invalid_world": "§cLe monde du home n’existe pas ou n’est pas chargé.",
+  "commandify.home.success": "§aTéléportation vers le home '%s'.",
+
+  "commandify.homes.disabled": "§cLa commande /homes est désactivée sur ce serveur.",
+  "commandify.homes.none": "§7Tu n’as défini aucun home pour le moment.",
+  "commandify.homes.header": "§6===== Tes homes (%s) =====",
+  "commandify.homes.footer": "§6==============================",
+  "commandify.homes.hover_tp": "§7Clique pour te téléporter à '%s'.",
+
+  "commandify.sethome.limit_reached": "§cTu as atteint la limite de homes (%s).",
+  "commandify.sethome.success": "§aHome '%s' défini à ta position actuelle.",
+
+  "commandify.delhome.not_found": "§cLe home '%s' n’existe pas.",
+  "commandify.delhome.success": "§aHome '%s' supprimé avec succès.",
+
+  "commandify.rtp.no_world": "§cImpossible de trouver le monde principal.",
+  "commandify.rtp.disabled": "§cLa commande /rtp est désactivée sur ce serveur.",
+  "commandify.rtp.cooldown": "§e⏳ Attends encore %s secondes avant d’utiliser /rtp.",
+  "commandify.rtp.searching": "§7Recherche d’un lieu sûr dans le monde...",
+  "commandify.rtp.no_safe": "§cAucun endroit sûr trouvé après plusieurs essais.",
+  "commandify.rtp.success": "§aTéléporté à un lieu aléatoire global : §e%s",
+
+  "commandify.setspawn.disabled": "§cLa commande /setspawn est désactivée dans la configuration.",
+  "commandify.setspawn.player_only": "§cCette commande doit être utilisée par un joueur.",
+  "commandify.setspawn.success": "§aSpawn défini à ta position exacte !",
+
+  "commandify.spawn.disabled": "§cLa commande /spawn est désactivée dans la configuration.",
+  "commandify.spawn.player_only": "§cCette commande doit être utilisée par un joueur.",
+  "commandify.spawn.not_set": "§cAucun spawn défini. Utilise /setspawn.",
+  "commandify.spawn.no_world": "§cErreur : monde Overworld introuvable.",
+  "commandify.spawn.success": "§aTéléporté au spawn du serveur.",
+
+  "commandify.tpa.self": "§cTu ne peux pas t’envoyer une demande à toi-même.",
+  "commandify.tpa.blocked": "§cCe joueur n’accepte pas les demandes de téléportation.",
+  "commandify.tpa.sent": "§aDemande de téléportation envoyée à §e%s§a.",
+  "commandify.tpa.accept_button": "[✅ Accepter]",
+  "commandify.tpa.deny_button": "[❌ Refuser]",
+  "commandify.tpa.accept_hover": "§aClique pour accepter la demande de téléportation.",
+  "commandify.tpa.deny_hover": "§cClique pour refuser la demande de téléportation.",
+  "commandify.tpa.request_message": " souhaite se téléporter à toi. ",
+
+  "commandify.tpaccept.none": "§cAucune demande de téléportation en attente.",
+  "commandify.tpaccept.offline": "§cLe joueur ayant fait la demande n’est plus en ligne.",
+  "commandify.tpaccept.here_target": "§aTu as accepté la demande, téléportation vers §e%s§a !",
+  "commandify.tpaccept.here_requester": "§a%s§a s’est téléporté à toi.",
+  "commandify.tpaccept.tpa_requester": "§aTéléportation vers §e%s§a.",
+  "commandify.tpaccept.tpa_target": "§a%s§a s’est téléporté à toi.",
+
+  "commandify.tpadeny.none": "§cAucune demande de téléportation en attente.",
+  "commandify.tpadeny.to_requester": "§c%s a refusé ta demande de téléportation.",
+  "commandify.tpadeny.to_target": "§aDemande de téléportation refusée.",
+
+  "commandify.tpahere.self": "§cTu ne peux pas t’envoyer une demande à toi-même.",
+  "commandify.tpahere.blocked": "§cCe joueur n’accepte pas les demandes de téléportation.",
+  "commandify.tpahere.sent": "§aDemande envoyée à §e%s§a pour qu’il se téléporte à toi.",
+  "commandify.tpahere.request_message": " §ete demande de te téléporter à lui. ",
+  "commandify.tpahere.accept_button": "[✅ Accepter]",
+  "commandify.tpahere.deny_button": "[❌ Refuser]",
+  "commandify.tpahere.accept_hover": "§aClique pour accepter",
+  "commandify.tpahere.deny_hover": "§cClique pour refuser",
+
+  "commandify.tpatoggle.enabled": "§aTu acceptes maintenant les demandes de téléportation.",
+  "commandify.tpatoggle.disabled": "§cTu refuses désormais toutes les demandes de téléportation.",
+
+  "commandify.tpa.expired_requester": "§cTa demande de téléportation vers %s a expiré.",
+  "commandify.tpa.expired_target": "§7La demande de téléportation de %s a expiré.",
+  "commandify.tpa.unknown_player": "un joueur",
+
+  "commandify.setwarp.disabled": "§cLa commande /setwarp est désactivée sur ce serveur.",
+  "commandify.setwarp.success": "§aWarp '%s' défini avec succès !",
+
+  "commandify.delwarp.disabled": "§cLa commande /delwarp est désactivée sur ce serveur.",
+  "commandify.delwarp.not_found": "§cLe warp '%s' n’existe pas.",
+  "commandify.delwarp.success": "§aWarp '%s' supprimé avec succès.",
+
+  "commandify.warp.disabled": "§cLa commande /warp est désactivée sur ce serveur.",
+  "commandify.warp.not_found": "§cLe warp '%s' n’existe pas.",
+  "commandify.warp.invalid_world": "§cLe monde du warp n’existe pas ou n’est pas chargé.",
+  "commandify.warp.success": "§aTéléportation vers le warp '%s'.",
+
+  "commandify.warps.disabled": "§cLa commande /warps est désactivée sur ce serveur.",
+  "commandify.warps.empty": "§7Aucun warp n’a encore été défini.",
+  "commandify.warps.header": "§6--- Warps disponibles ---",
+  "commandify.warps.footer": "§6---------------------------",
+  "commandify.warps.hover": "§7Clique pour te téléporter à §e%s",
+
+  "commandify.world.disabled": "§cCette commande est désactivée sur ce serveur.",
+  "commandify.world.day": "§eHeure définie sur §6jour.",
+  "commandify.world.night": "§9Heure définie sur §bla nuit.",
+  "commandify.world.noon": "§eHeure définie sur §6midi.",
+  "commandify.world.midnight": "§9Heure définie sur §bminuit.",
+  "commandify.world.sun": "§eMétéo réglée sur §6ensoleillé.",
+  "commandify.world.rain": "§bMétéo réglée sur §9pluie.",
+  "commandify.world.thunder": "§bMétéo réglée sur §corage."
+}
